@@ -1,25 +1,13 @@
 ---
 layout: default
-title: About Long Haul
+title: About
 ---
 
 <div class="post">
 	<h1 class="pageTitle">About Long Haul</h1>
-	<img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
-	<p class="intro">Long Haul is a minimal, long form <a href="http://jekyllrb.com">Jekyll</a> Theme. It can be used as is or customized to your hearts desire.</p>
-	<p>Long Haul was created in honor of all the hard working touring bicycles that have traversed the globe time and time again. Take it for a spin.</p>
-	<h2>Features</h2>
-	<ul>
-		<li>Built with <a href="http://sass-lang.com/">SASS</a> + <a href="http://compass-style.org/">COMPASS</a></li>
-  		<li>Layout with <a href="http://susy.oddbird.net/">SUSY Grid</a></li>
-  		<li>SVG Social Icons from <a href="http://customizr.net/icons/">Customizr</a></li>
-  		<li><a href="http://responsive-nav.com/">Responsive Nav Menu</a></li>
-  		<li><a href="https://github.com/snaptortoise/jekyll-rss-feeds">XML Feed for RSS Readers</a></li>
-  		<li>Contact Form via <a href="http://formspree.io/">Formspree</a></li>
-      <li>5 Post Loop with excerpt on Home Page</li>
-  		<li>Previous / Next Post Navigation</li>
-      <li>Estimated Reading Time for posts</li>
-  		<li><a href="https://github.com/adobe-webplatform/dropcap.js">Drop Cap</a> on posts</li>
-  		<li><a href="http://typecast.com/blog/a-more-modern-scale-for-web-typography">A Better Type Scale</a></li>
-  	</ul>
+	<img src="{{ '/assets/img/santa-monica-pier.jpg' | prepend: site.baseurl }}" alt=""> 
+	<p class="intro">Hi there. I'm Matt. You probably knew that already. And you probably already read this part from the sidebar of the website:</p>
+    <blockquote><p>Web and iOS developer. I play with WordPress, Xcode, Backbone, Drupal, & other fun stuff. Connoisseur of CSS, jQuery and video games. Yankees fan. Scotch lover.</p></blockquote>
+    <p>In a not-too-distant past, I was the Founder and Editor-in-Chief of <a href="http://loot-ninja.com" target="_blank">Loot Ninja</a>. Sadly, that project shut down as things in life got busier. I run <a href="http://www.kernelcreativemedia.com" target="_blank">Kernel Creative Media</a>, a web development firm specializing in WordPress, iOS, Drupal, and progressive HTML5/CSS3/JavaScript web technologies. If have an web projects in mind, head over that way and get in touch with us! I also work at <a href="http://sunyacc.edu">SUNY Adirondack</a> as a Web Developer and New Media Specialist where I developed and implemented Drupal for the college website, transitioned all data from a defunct content management system, and trained over 60 users to edit and create content for the college.</p>
+    <p>Well, what else can I say about myself. I moved to Saratoga Springs, NY in 2005, got married to my wife, Vanessa, in 2007, bought a house in 2008, had a son, AJ, in 2012, have 3 cats that terrorize my life on a daily basis, and am in year 5 of my 10 year plan for world domination. Almost there...</p>
 </div>
