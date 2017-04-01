@@ -6,24 +6,30 @@ date: 2014-02-04
 
 <p><a href="http://gulpjs.com/">Gulp</a> is the new kid on the block when it comes to JavaScript task runners. It's gotten off the ground running extremely quickly with its emphasis on code over configuration when compared with <a href="http://gruntjs.com/">Grunt</a>. While still a very young product, I've switched my development away from Grunt and am now using gulp for all of my new coding.</p>
 <p>Keep reading to find out how to use gulp with your WordPress themes to speed up your development and stay on the bleeding edge.</p>
-<p><!--more--></p>
+
 <h2>What is gulp?</h2>
 <p>gulp is a Node.js based task runner, similar to Grunt, but built for speed and efficiency. gulp uses Node streams, meaning it can build faster as it doesn't need to read and write temporary files as it pipes things through the tasks. If you want to learn all about streams, <a href="https://github.com/substack/stream-handbook">check out this great write-up on Github</a>. Breaking it down, gulp allows you to configure your actual tasks, such as processing your styles or processing your JavaScript, with code instead of configuring each option by itself.</p>
 <p>It makes sense to look at how it works compared to Grunt, since that's how I wrapped my head around gulp.</p>
-<p><img class="alignnone size-full wp-image-2225 aligncenter" src="{{ site.baseurl }}/assets/img/posts/gulp.png" alt="gulp" width="228" height="514" /></p>
+<p><img src="{{ site.baseurl }}/assets/img/posts/gulp.png" alt="gulp" width="228" height="514" /></p>
+
 <h2>How is gulp different than Grunt?</h2>
 <p>I first saw <a href="http://markgoodyear.com/2014/01/getting-started-with-gulp/">a great comparison of Grunt and gulp from Mark Goodyear</a> and my interest was piqued. What really clicked for me was seeing that I'm writing one block of code to process my CSS, one block of code to process my images, and another block of code to process my JavaScript. Compare that to Grunt, where I'm configuring Compass and Autoprefixer separately for my CSS, Uglify and JSHint separately for my JavaScript, and Imagemin for my images. Instead of configuring a plugin, you're writing short, manageable blocks of code that are logically separated based on what you need to do with your development environment.</p>
 <p>Let's dive right in and see how to use gulp for developing WordPress themes.</p>
+
 <h2>Using gulp with WordPress Themes</h2>
-<p>I have two WordPress starter themes setup that I use and you can watch, fork or download as well: <a href="https://github.com/mattbanks/WordPress-Starter-Theme">one for use with most WordPress themes</a> and <a href="https://github.com/mattbanks/Genesis-Starter-Child-Theme">one for use with the Genesis Framework</a>. The master branch on Github currently uses Grunt, as broken down in my article on <a title="Using Grunt for WordPress Theme Development and Deployments" href="http://mattbanks.me/grunt-wordpress-development-deployments/">Using Grunt for WordPress Theme Development and Deployments</a>, but there are separate "gulp" branches for each configured to use gulp tasks (<a href="https://github.com/mattbanks/WordPress-Starter-Theme/tree/gulp">WordPress Starter Theme gulp branch</a> / <a href="https://github.com/mattbanks/Genesis-Starter-Child-Theme/tree/gulp">Genesis Starter Child Theme gulp branch</a>). I plan on merging the gulp branches into the master branch at some point in the near future as I plan on using gulp going forward.</p>
+<p>I have two WordPress starter themes setup that I use and you can watch, fork or download as well: <a href="https://github.com/mattbanks/WordPress-Starter-Theme">one for use with most WordPress themes</a> and <a href="https://github.com/mattbanks/Genesis-Starter-Child-Theme">one for use with the Genesis Framework</a>. The master branch on Github currently uses Grunt, as broken down in my article on <a title="Using Grunt for WordPress Theme Development and Deployments" href="{{ site.baseurl }}/grunt-wordpress-development-deployments/">Using Grunt for WordPress Theme Development and Deployments</a>, but there are separate "gulp" branches for each configured to use gulp tasks (<a href="https://github.com/mattbanks/WordPress-Starter-Theme/tree/gulp">WordPress Starter Theme gulp branch</a> / <a href="https://github.com/mattbanks/Genesis-Starter-Child-Theme/tree/gulp">Genesis Starter Child Theme gulp branch</a>). I plan on merging the gulp branches into the master branch at some point in the near future as I plan on using gulp going forward.</p>
 <p>First, make sure Node and gulp are installed on your system, and then create a <code>package.json</code> file in the root of your theme to define your dependencies.</p>
-<p>https://gist.github.com/mattbanks/8811514#file-package-json</p>
-<p><em>[* Please note, package.json is subject to change. <a title="WordPress and Drupal Starter Themes Using Grunt on Github" href="http://mattbanks.me/wordpress-drupal-starter-themes-grunt/">Check my Grunt WordPress and Drupal repositories on Github for the latest versions</a>]</em></p>
+
+{% gist 8811514 package.json %}
+
+<p><em>[* Please note, package.json is subject to change. <a title="WordPress and Drupal Starter Themes Using Grunt on Github" href="{{ site.baseurl }}/wordpress-drupal-starter-themes-grunt/">Check my Grunt WordPress and Drupal repositories on Github for the latest versions</a>]</em></p>
 <p>With that in your theme, you can then open the theme folder in your Terminal and run:</p>
 <p>[code]npm install[/code]</p>
 <p>This will tell NPM to download all dependencies and put them in a <code>node_modules</code> folder. Now we're ready to create our <code>gulpfile.js</code>.</p>
-<p>https://gist.github.com/mattbanks/8811514#file-gulpfile-js</p>
-<p><em>[* Please note, Gruntfile.js is subject to change. <a title="WordPress and Drupal Starter Themes Using Grunt on Github" href="http://mattbanks.me/wordpress-drupal-starter-themes-grunt/">Check my Grunt WordPress and Drupal repositories on Github for the latest versions</a>]</em></p>
+
+{% gist 8811514 gulpfile.js %}
+
+<p><em>[* Please note, Gruntfile.js is subject to change. <a title="WordPress and Drupal Starter Themes Using Grunt on Github" href="{{ site.baseurl }}/wordpress-drupal-starter-themes-grunt/">Check my Grunt WordPress and Drupal repositories on Github for the latest versions</a>]</em></p>
 <p>We first load all of our plugins and setup the <code>livereload</code> server. You'll need to install the LiveReload browser extension to connect, which you can get for Chrome, Firefox or Safari. Next, we setup our tasks for our stylesheets. The <code>gulp.src</code> of the tasks defines which files will be processed when the task runs. Here, we specify all SCSS files inside <code>assets/styles/source</code> (but not files in subfolders). We then use Node.js piping to take those files and process them with SASS, run Autoprefixer to put in vendor prefixes as needed, copy the files into a build directory uncompressed, then minify the stylesheets and place them in the theme root, as well as triggering a LiveReload in the browser.</p>
 <p>Instead of configuring SASS, Autoprefixer, Minification and LiveReload separately, we have them all piped together in code block for our stylesheets. For me, this is so much more logical and easier to use, maintain and extend. Plus, piping makes it extremely fast!</p>
 <p>Separate script processing blocks are setup for vendor plugins and app/site scripts to spit out <code>plugins.min.js</code> and <code>main.min.js</code> files. In those blocks, we're concatenating plugins and scripts, running them through JSHint to check for syntax issues and Uglify to compress everything, and then copying files to proper destinations and triggering a LiveReload.</p>
@@ -32,8 +38,10 @@ date: 2014-02-04
 <p>We next setup our <code>watch</code> task, where we're monitoring files for changes and triggering our appropriate gulp tasks as needed. Lastly, we define our default task to run each of the tasks initially and then start watching our files for changes.</p>
 <p>To get going, fire up your Terminal and navigate to your theme directory and run:</p>
 <p>[code]gulp[/code]</p>
-<p><img class="size-full wp-image-2226 aligncenter" src="{{ site.baseurl }}/assets/img/posts/rocket.png" alt="rocket" width="202" height="202" /></p>
+<p><img src="{{ site.baseurl }}/assets/img/posts/rocket.png" alt="rocket" width="202" height="202" /></p>
+
 <h2>Gulp could use more tasks</h2>
 <p>One thing you might notice that's missing from gulp here compared to my Grunt setup is deployments. Right now, there is no rsync task for gulp to deploy files. There is <a href="https://github.com/sindresorhus/gulp-ftp">a really nice FTP deployment task</a> from <a href="https://twitter.com/sindresorhus">Sindre Sorhus</a> that's available to use if FTP is your deployment tool. Being that gulp is still early in its life cycle, the plugin community is still growing and developing content that people need. I fully expect all of the best Grunt plugins to be ported over to gulp shortly as it seems that the JavaScript community is moving in that direction.</p>
+
 <h2>Wrap Up</h2>
 <p>I'm really enjoying gulp as a task runner, particularly for speed and efficiency of setting up the <code>gulpfile</code>. Yes, WordPress Core uses Grunt for development now, and the beauty of both systems is that you can use either wherever you choose. I have both installed on my Mac and use both daily for multiple projects. Grunt v0.5 looks to bring Node.js streams and piping into play, which will make the JavaScript task runner landscape even more interesting. For now, I'm a big of gulp!</p>
