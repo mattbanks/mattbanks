@@ -4,7 +4,7 @@ title: About
 ---
 
 <div class="post">
-	<h1 class="pageTitle">About Long Haul</h1>
+	<h1 class="pageTitle">About Matt</h1>
 	<img src="{{ '/assets/img/santa-monica-pier.jpg' | prepend: site.baseurl }}" alt=""> 
 	<p class="intro">Hi there. I'm Matt. You probably knew that already. And you probably already read this part from the sidebar of the website:</p>
     <blockquote><p>Web and iOS developer. I play with WordPress, Xcode, Backbone, Drupal, & other fun stuff. Connoisseur of CSS, jQuery and video games. Yankees fan. Scotch lover.</p></blockquote>
