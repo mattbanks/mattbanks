@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Blog Archive - Matt Banks
 ---
 
 <div id="articles">
