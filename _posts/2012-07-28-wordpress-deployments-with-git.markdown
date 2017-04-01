@@ -28,7 +28,7 @@ public_html<br />
 <p>You should be aware of git remotes by using Github, Bitbucket or some other repository management system. It's a way to push your code changes somewhere offsite for sharing, collaboration, backup, etc. With any repository, you can add as many remotes as you'd like. So let's get right to it.</p>
 <p>In this example, I'm going to use a WordPress theme as my deployment code. I'm not using the entire WordPress structure as the repository for a few reasons (simplicity in the case of this example, and also for needs of the client website that I'm developing).</p>
 <p>Here's a look at the local repository:</p>
-<p><a href="http://mattbanks.me/wp-content/uploads/2012/07/kernelmedia-git-repo.jpg"><img class="size-medium wp-image-2030" title="kernelmedia git repo" alt="" src="{{ site.baseurl }}/assets/kernelmedia-git-repo-565x385.jpg" width="565" height="385" /></a></p>
+<p><a href="http://mattbanks.me/wp-content/uploads/2012/07/kernelmedia-git-repo.jpg"><img class="size-medium wp-image-2030" title="kernelmedia git repo" alt="" src="{{ site.baseurl }}/assets/img/posts/kernelmedia-git-repo-565x385.jpg" width="565" height="385" /></a></p>
 <p>To create your repository, open Terminal (or <a href="https://github.com/capistrano/capistrano">iTerm 2</a>, which I strongly prefer) and navigate to your code directory:</p>
 <p>[bash]<br />
 cd your-project<br />

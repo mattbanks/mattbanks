@@ -12,7 +12,7 @@ date: 2013-03-13
 <p><!--more--></p>
 <p>All three use SCSS and Compass for preprocessing and are setup with the same Gruntfile and folder structure to keep things clean. If you're looking for recommended plugins/modules, check out the Readme's for each repository for what I use on most projects. More information and instructions can be found there as well.</p>
 <p>Feel free to clone, fork, create an issue and send pull requests with anything you'd like to see changed or added!</p>
-<p><img class="alignnone size-full wp-image-2165" alt="WordPress Drupal and Grunt Logos" src="{{ site.baseurl }}/assets/wordpress-drupal-grunt.jpg" width="740" height="287" /></p>
+<p><img class="alignnone size-full wp-image-2165" alt="WordPress Drupal and Grunt Logos" src="{{ site.baseurl }}/assets/img/posts/wordpress-drupal-grunt.jpg" width="740" height="287" /></p>
 <h2>Using Grunt with the WordPress and Drupal Themes</h2>
 <p>Just as a quick recap, to use Grunt with the themes, open the theme directory in your Terminal and run</p>
 <p>[code]npm install[/code]</p>

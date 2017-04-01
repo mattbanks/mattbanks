@@ -10,7 +10,7 @@ date: 2014-02-04
 <h2>What is gulp?</h2>
 <p>gulp is a Node.js based task runner, similar to Grunt, but built for speed and efficiency. gulp uses Node streams, meaning it can build faster as it doesn't need to read and write temporary files as it pipes things through the tasks. If you want to learn all about streams, <a href="https://github.com/substack/stream-handbook">check out this great write-up on Github</a>. Breaking it down, gulp allows you to configure your actual tasks, such as processing your styles or processing your JavaScript, with code instead of configuring each option by itself.</p>
 <p>It makes sense to look at how it works compared to Grunt, since that's how I wrapped my head around gulp.</p>
-<p><img class="alignnone size-full wp-image-2225 aligncenter" src="{{ site.baseurl }}/assets/gulp.png" alt="gulp" width="228" height="514" /></p>
+<p><img class="alignnone size-full wp-image-2225 aligncenter" src="{{ site.baseurl }}/assets/img/posts/gulp.png" alt="gulp" width="228" height="514" /></p>
 <h2>How is gulp different than Grunt?</h2>
 <p>I first saw <a href="http://markgoodyear.com/2014/01/getting-started-with-gulp/">a great comparison of Grunt and gulp from Mark Goodyear</a> and my interest was piqued. What really clicked for me was seeing that I'm writing one block of code to process my CSS, one block of code to process my images, and another block of code to process my JavaScript. Compare that to Grunt, where I'm configuring Compass and Autoprefixer separately for my CSS, Uglify and JSHint separately for my JavaScript, and Imagemin for my images. Instead of configuring a plugin, you're writing short, manageable blocks of code that are logically separated based on what you need to do with your development environment.</p>
 <p>Let's dive right in and see how to use gulp for developing WordPress themes.</p>
@@ -32,7 +32,7 @@ date: 2014-02-04
 <p>We next setup our <code>watch</code> task, where we're monitoring files for changes and triggering our appropriate gulp tasks as needed. Lastly, we define our default task to run each of the tasks initially and then start watching our files for changes.</p>
 <p>To get going, fire up your Terminal and navigate to your theme directory and run:</p>
 <p>[code]gulp[/code]</p>
-<p><img class="size-full wp-image-2226 aligncenter" src="{{ site.baseurl }}/assets/rocket.png" alt="rocket" width="202" height="202" /></p>
+<p><img class="size-full wp-image-2226 aligncenter" src="{{ site.baseurl }}/assets/img/posts/rocket.png" alt="rocket" width="202" height="202" /></p>
 <h2>Gulp could use more tasks</h2>
 <p>One thing you might notice that's missing from gulp here compared to my Grunt setup is deployments. Right now, there is no rsync task for gulp to deploy files. There is <a href="https://github.com/sindresorhus/gulp-ftp">a really nice FTP deployment task</a> from <a href="https://twitter.com/sindresorhus">Sindre Sorhus</a> that's available to use if FTP is your deployment tool. Being that gulp is still early in its life cycle, the plugin community is still growing and developing content that people need. I fully expect all of the best Grunt plugins to be ported over to gulp shortly as it seems that the JavaScript community is moving in that direction.</p>
 <h2>Wrap Up</h2>
