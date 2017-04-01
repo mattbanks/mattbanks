@@ -1,36 +1,24 @@
-![preview Long Haul](/preview.jpg)
+## Matt Banks personal site
 
-Long Haul is a minimal jekyll theme built with COMPASS / SASS / SUSY and focuses on long form blog posts. It is meant to be used as a starting point for a jekyll blog/website.
+My personal blog site, running Jeyll and based on [Long Haul](https://github.com/brianmaierjr/long-haul).
 
-If you really enjoy Long Haul and want to give me credit somewhere on the internet send or tweet out your experience with Long Haul and tag me [@brianmaierjr](https://twitter.com/brianmaierjr).
+## TODO
 
-####[View Demo](http://brianmaierjr.com/long-haul)
-
-## Features
-
-- Minimal, Type Focused Design
-- Built with SASS + COMPASS
-- Layout with SUSY Grid
-- SVG Social Icons
-- Responsive Nav Menu
-- XML Feed for RSS Readers
-- Contact Form via Formspree
-- 5 Post Loop with excerpt on Home Page
-- Previous / Next Post Navigation
-- Estimated Reading Time for posts
-- Stylish Drop Cap on posts
-- A Better Type Scale for all devices
+- tweak all posts to use Jeykll formatting
+- gist embed
+- youtube embed
+- image height auto in CSS
+- check into current class for homepage
+- get it up and running on github pages
+- get a new favicon
 
 ## Setup
 
-1. [Install Jekyll](http://jekyllrb.com)
-2. Fork the [Long Haul repo](http://github.com/brianmaierjr/long-haul)
-3. Clone it
-4. [Install Bundler](http://bundler.io/)
-5. Run `bundle install`
-6. Run Jekyll `jekyll serve -w`
-7. Run `compass watch`
-8. Customize!
+1. Clone this repo
+2. Run `bundle install`
+3. Run Jekyll `bundle exec jekyll serve`
+4. In a separate terminal window, run `compass watch`
+5. Customize!
 
 ## Site Settings
 
