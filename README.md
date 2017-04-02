@@ -4,10 +4,7 @@ My personal blog site, running Jeyll and based on [Long Haul](https://github.com
 
 ## TODO
 
-- tweak all posts to use Jeykll formatting
-- gist embed
-- youtube embed
-- image height auto in CSS
+- add featured images to posts
 - check into current class for homepage
 - get it up and running on github pages
 - get a new favicon
