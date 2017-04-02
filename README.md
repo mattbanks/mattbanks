@@ -2,16 +2,6 @@
 
 My personal blog site, running Jeyll and based on [Long Haul](https://github.com/brianmaierjr/long-haul).
 
-## TODO
-
-- add featured images to posts
-- check into current class for homepage
-- get it up and running on github pages
-- get a new favicon
-- get tags and categories in all posts and pages
-- get default social sharing image setup
-- contact form
-
 ## Setup
 
 1. Clone this repo
