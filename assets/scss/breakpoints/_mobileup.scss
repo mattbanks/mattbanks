@@ -39,6 +39,10 @@ img,video,audio,iframe,object{
 	max-width:100%;
 }
 
+img,video,audio,object{
+	height: auto;
+}
+
 // Layout
 .container {
 	@include container(610px);
@@ -274,6 +278,14 @@ POST STYLING
 
 	img {
 		margin-bottom: 2rem;
+
+
+        &.center {
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            display: block;
+        }
 	}
 
 	.highlight {
