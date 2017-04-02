@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+description: All about Matt Banks
 ---
 
 <div class="post">
