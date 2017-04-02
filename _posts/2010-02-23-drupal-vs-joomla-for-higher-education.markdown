@@ -2,7 +2,6 @@
 layout: post
 title: "Drupal vs. Joomla for Higher Education"
 date: 2010-02-23
-image: posts/drupal-joomla.jpg
 categories:
 - Web Development
 tags:

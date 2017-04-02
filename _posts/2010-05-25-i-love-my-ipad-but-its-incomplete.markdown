@@ -2,7 +2,6 @@
 layout: post
 title: "I Love my iPad, but it's Incomplete"
 date: 2010-05-25
-image: posts/iPad.jpg
 categories:
 - Tech
 - Video Games

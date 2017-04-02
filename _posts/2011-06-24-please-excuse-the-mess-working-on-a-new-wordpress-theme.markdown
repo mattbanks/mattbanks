@@ -2,7 +2,6 @@
 layout: post
 title: "Please Excuse the Mess - Working on a New WordPress Theme"
 date: 2011-06-24
-image: posts/elephant-LG.jpg
 categories:
 - Miscellaneous
 tags:
