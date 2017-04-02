@@ -6,9 +6,13 @@ description: All about Matt Banks
 
 <div class="post">
 	<h1 class="pageTitle">About Matt</h1>
-	<img src="{{ '/assets/img/santa-monica-pier.jpg' | prepend: site.baseurl }}" alt=""> 
-	<p class="intro">Hi there. I'm Matt. You probably knew that already. And you probably already read this part from the sidebar of the website:</p>
-    <blockquote><p>Web and iOS developer. I play with WordPress, Xcode, Backbone, Drupal, & other fun stuff. Connoisseur of CSS, jQuery and video games. Yankees fan. Scotch lover.</p></blockquote>
-    <p>In a not-too-distant past, I was the Founder and Editor-in-Chief of <a href="http://loot-ninja.com" target="_blank">Loot Ninja</a>. Sadly, that project shut down as things in life got busier. I run <a href="http://www.kernelcreativemedia.com" target="_blank">Kernel Creative Media</a>, a web development firm specializing in WordPress, iOS, Drupal, and progressive HTML5/CSS3/JavaScript web technologies. If have an web projects in mind, head over that way and get in touch with us! I also work at <a href="http://sunyacc.edu">SUNY Adirondack</a> as a Web Developer and New Media Specialist where I developed and implemented Drupal for the college website, transitioned all data from a defunct content management system, and trained over 60 users to edit and create content for the college.</p>
-    <p>Well, what else can I say about myself. I moved to Saratoga Springs, NY in 2005, got married to my wife, Vanessa, in 2007, bought a house in 2008, had a son, AJ, in 2012, have 3 cats that terrorize my life on a daily basis, and am in year 5 of my 10 year plan for world domination. Almost there...</p>
+    <figure>
+        <img src="{{ '/assets/img/matt-thumbs.jpg' | prepend: site.baseurl }}" alt=""> 
+        <figcaption>Photo credit - <a href="https://twitter.com/yuliyapeshkova">Yuliya Peshkova</a></figcaption>
+    </figure>
+	<p class="intro"><span class="dropcap">H</span>i there. I'm Matt. You probably knew that already. I live in Saratoga Springs, NY with my wife, our two sons, and our two cats.</p>
+    <blockquote><p>I'm a software enginner. I play with Node, Python, JavaScript, React, Redux, Ruby, WordPress, and other fun stuff. I love video games. I'm a huge fan of Manchester City, Real Madrid, the Yankees, and NYCFC. Pourover coffee and craft beer make me happy.</p></blockquote>
+    <p>In a not-too-distant past, I was the Founder and Editor-in-Chief of <a href="http://loot-ninja.com">Loot Ninja</a>. Sadly, that project shut down as things in life got busier.</p>
+    <p>I work at <a href="http://madglory.com">MadGlory</a> creating back-end systems and platforms for some of the best video game companies in the world.</p>
+    <p>I also run <a href="http://www.kernelcreativemedia.com">Kernel Creative Media</a>, a web design, development, and marketing firm. If have an cool projects in mind, head over that way and get in touch with us!</p>
 </div>
