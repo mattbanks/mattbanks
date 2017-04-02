@@ -3,6 +3,15 @@ layout: post
 title: "Contributing to WordPress Core - It's Time to Give Back"
 date: 2011-12-21
 image: posts/WordPress-Logo.png
+categories:
+- Web Development
+tags:
+- coda
+- contribute
+- subversion
+- svn
+- textmate
+description: As a WordPress user and developer for a number of years, I recently decided to begin contributing to WordPress core. This is my story.
 ---
 
 <p class="intro"><em>[<strong>Update 2012-07-28</strong>: It's been almost 3/4 a year since I wrote this and time hasn't been on my side for getting involved in WordPress core/trac. Hopefully soon...]</em><p>

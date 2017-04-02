@@ -3,6 +3,15 @@ layout: post
 title: "I'm Addicted to Mortal Kombat - My Favorite Fighting Game Ever"
 date: 2011-07-05
 image: posts/Mortal-Kombat-Kitana-Cyrax.jpg
+categories:
+- Video Games
+tags:
+- DLC
+- Fighting Games
+- Mortal Kombat
+- Online Gaming
+- PS3
+description: Over the long July 4th weekend, I put in quite a few hours with Mortal Kombat. I'm hooked. It's by far my favorite fighting game ever.
 ---
 
 <p class="intro"><span class="dropcap">S</span>ince Loot Ninja is no longer operating, I've had a chance to go back and play games that eluded me for quite some time.</p>

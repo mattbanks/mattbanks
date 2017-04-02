@@ -3,6 +3,17 @@ layout: post
 title: "WordPress and Drupal Starter Themes Using Grunt on Github"
 date: 2013-03-13
 image: posts/githuboctacat.jpg
+categories:
+- Web Development
+tags:
+- drupal
+- genesis
+- github
+- grunt
+- gruntjs
+- themes
+- wordpress
+description: Github repositories for WordPress, Genesis Framework and Drupal 7 starter themes using SCSS, Compass and Grunt for development and deployment
 ---
 
 <p class="intro"><span class="dropcap">Y</span>esterday, I wrote an article on <a href="{% post_url 2013-03-12-grunt-wordpress-development-deployments %}">how I use Grunt with my WordPress theme development and deployment</a>.</p>

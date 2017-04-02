@@ -2,6 +2,11 @@
 layout: post
 title: "WiredTree: A Great Web Host"
 date: 2010-03-11
+categories:
+- Web Development
+tags:
+- hosting
+- wiredtree
 ---
 
 <p class="into"><span class="dropcap">I</span>'m in the process of moving a few things to a new web host and chose WiredTree based on a number of factors (reliability, support, hardware, price, etc). One of the facets of their service they talk up is 15 minutes response time for support tickets. While you might think this is a joke, it's not at all. In both sales and support inquiries, I've gotten responses within 10 minutes each time, and not just "we'll look into it," but actual results. This is amazing.</p>

@@ -2,6 +2,10 @@
 layout: post
 title: "Connecting iPhone to Multiple Computers - Need Help"
 date: 2010-04-06
+categories:
+- Miscellaneous
+tags:
+- iPhone
 ---
 
 <p class="intro"><span class="dropcap">I</span>'m looking for some help, friends. I've found numerous articles online for connecting an iPhone/iPod to multiple computers, but nothing I've found has really addressed what I'm trying to accomplish. So here the skinny...</p>

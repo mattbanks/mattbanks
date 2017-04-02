@@ -3,6 +3,15 @@ layout: post
 title: "Adding Conditional Classes to the HTML Tag in Genesis 2.0"
 date: 2013-08-19
 image: posts/genesis2.jpg
+categories:
+- Web Development
+tags:
+- genesis
+- html5
+- html5 boilerplate
+- old ie
+- wordpress
+description: Code for adding conditional html element tags in Genesis 2.0 to target older Internet Explorer versions, similar to HTML5 Boilerplate.
 ---
 
 <p class="intro"><span class="dropcap">H</span>ave you upgraded to <a href="http://my.studiopress.com/themes/genesis/">Genesis 2.0</a> and love the new HTML5 features, but want to target older Internet Explorer versions with classes like with <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>? Just drop this code into your child theme's functions.php file and you're off and running.</p>

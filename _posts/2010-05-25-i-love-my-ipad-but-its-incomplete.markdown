@@ -3,6 +3,12 @@ layout: post
 title: "I Love my iPad, but it's Incomplete"
 date: 2010-05-25
 image: posts/iPad.jpg
+categories:
+- Tech
+- Video Games
+tags:
+- E3 2010
+- iPad
 ---
 
 <p class="intro"><span class="dropcap">I</span> picked up a 32GB WiFi iPad about two weeks after it was released and, while I'm generally in love, there are a few things clearly missing. One of my intentions was to cover E3 in Los Angeles this June with only the iPad, leaving my MacBook Pro at home. Sadly this won't work out as a few key apps have not yet been updated or released.</p>

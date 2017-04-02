@@ -3,6 +3,14 @@ layout: post
 title: "Genesis Framework: My new WordPress Starting Point"
 date: 2013-03-01
 image: posts/genesis-framework-header.jpg
+categories:
+- Web Development
+tags:
+- framework
+- genesis
+- studiopress
+- wordpress
+description: Detailing my process of migrating from a custom WordPress Starter theme to Genesis Framework. It's rock solid and a joy to use!
 ---
 
 <p class="intro"><span class="dropcap">W</span>hen it comes to developing WordPress themes, there are plenty of options. You can start from scratch every time, you can build you own starter theme as a base to tweak, or you can use a theme framework and create a child theme.</p>

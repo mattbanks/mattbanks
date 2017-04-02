@@ -2,7 +2,20 @@
 layout: post
 title: "Using Gulp for WordPress Theme Development"
 date: 2014-02-04
-image:
+image: posts/gulpjs-cover.png
+categories:
+- Web Development
+tags:
+- development
+- genesis
+- git
+- github
+- grunt
+- gruntjs
+- gulp
+- gulpjs
+- themes
+- wordpress
 description: Learn how to setup and use gulp to optimize and speed up your WordPress theme development. Works with Genesis Framework.
 ---
 
