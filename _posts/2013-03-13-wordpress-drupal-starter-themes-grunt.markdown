@@ -2,6 +2,7 @@
 layout: post
 title: "WordPress and Drupal Starter Themes Using Grunt on Github"
 date: 2013-03-13
+image: posts/githuboctacat.jpg
 ---
 
 <p class="intro"><span class="dropcap">Y</span>esterday, I wrote an article on <a href="{% post_url 2013-03-12-grunt-wordpress-development-deployments %}">how I use Grunt with my WordPress theme development and deployment</a>.</p>

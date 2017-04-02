@@ -2,6 +2,7 @@
 layout: post
 title: "Using Grunt for WordPress Theme Development and Deployments"
 date: 2013-03-12
+image: posts/grunt.jpg
 ---
 
 <p class="intro"><span class="dropcap">T</span>here are plenty of options if you're looking to use CSS preprocessors and JavaScript linting in your development workflow, but none as flexible and extensible as <a href="http://gruntjs.com/">Grunt</a>.</p>

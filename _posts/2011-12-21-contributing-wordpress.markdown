@@ -2,6 +2,7 @@
 layout: post
 title: "Contributing to WordPress Core - It's Time to Give Back"
 date: 2011-12-21
+image: posts/WordPress-Logo.png
 ---
 
 <p class="intro"><em>[<strong>Update 2012-07-28</strong>: It's been almost 3/4 a year since I wrote this and time hasn't been on my side for getting involved in WordPress core/trac. Hopefully soon...]</em><p>

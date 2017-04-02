@@ -2,6 +2,7 @@
 layout: post
 title: "Managing WordPress Theme Deployments with Git"
 date: 2012-07-28
+image: posts/Git-Logo.png
 ---
 
 <p class="intro"><span class="dropcap">Y</span>ou're using version control for all of your code, right?</p>

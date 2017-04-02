@@ -2,6 +2,8 @@
 layout: post
 title: "Using Gulp for WordPress Theme Development"
 date: 2014-02-04
+image:
+description: Learn how to setup and use gulp to optimize and speed up your WordPress theme development. Works with Genesis Framework.
 ---
 
 <p class="intro"><span class="dropcap">G</span>ulp is the new kid on the block when it comes to JavaScript task runners. It's gotten off the ground running extremely quickly with its emphasis on code over configuration when compared with Grunt. While still a very young product, I've switched my development away from Grunt and am now using gulp for all of my new coding.</p>

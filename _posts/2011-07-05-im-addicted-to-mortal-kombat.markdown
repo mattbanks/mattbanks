@@ -2,6 +2,7 @@
 layout: post
 title: "I'm Addicted to Mortal Kombat - My Favorite Fighting Game Ever"
 date: 2011-07-05
+image: posts/Mortal-Kombat-Kitana-Cyrax.jpg
 ---
 
 <p class="intro"><span class="dropcap">S</span>ince Loot Ninja is no longer operating, I've had a chance to go back and play games that eluded me for quite some time.</p>

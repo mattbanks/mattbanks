@@ -2,6 +2,7 @@
 layout: post
 title: "Please Excuse the Mess - Working on a New WordPress Theme"
 date: 2011-06-24
+image: posts/elephant-LG.jpg
 ---
 
 <p class="intro"><span class="dropcap">Y</span>ou may have noticed that the site looks quite a bit different... and rather bland. I'm in the process of totally revamping my personal site here with a new WordPress theme, so bear with me.</p>
