@@ -25,7 +25,7 @@ Back in the old days, I would create a new folder and start coding a theme from 
 
 It didn't take long for me to create a starter theme to use on all sites. At first it just lived in a folder on my computer, then in Dropbox, and then [it went up on Github][wp-starter] when I started using git for version control (which everyone should be doing). It's gone through many iterations, adding new functionality, refactored code, and streamlined the whole process.
 
-<img src="{{ site.baseurl }}/assets/img/posts/wordpress-starter-theme-1024x354.jpg" alt="" />
+<img src="{{ site.baseurl }}/assets/img/posts/wordpress-starter-theme.jpg" alt="" />
 
 In its current form, my starter theme uses Compass and SASS (specifically SCSS) for all of the CSS wizardry - preprocessors make things so much easier, so I recommend checking them out if you haven't yet. I added in a responsive grid framework from [Chris Coyier][css-tricks-grids], broke out most of the content into template parts, and built out theme functions to define everything I think is needed as a starting point for a new theme. Feel free to [clone or fork it on Github][wp-starter] and send pull requests with anything you think might make it better!
 
