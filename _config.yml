@@ -25,3 +25,5 @@ social:
    facebook: mattbanks
 
 google_analytics: "UA-27725430-1"
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'wordpress.xml', 'LICENSE', 'config.rb']
