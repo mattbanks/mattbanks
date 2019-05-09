@@ -19,3 +19,9 @@
 .post-footer .author {
   margin-right: 200px;
 }
+
+@media (max-width: 500px) {
+  .post-footer .author {
+    margin-right: 0;
+  }
+}
