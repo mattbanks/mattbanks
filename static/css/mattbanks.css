@@ -1,0 +1,21 @@
+.main-header {
+  background-position-y: top;
+  background-blend-mode: lighten, multiply;
+}
+
+.blog-logo img {
+  border-radius: 100%;
+}
+
+.post-head.main-header {
+  background-position-y: top;
+  background-blend-mode: normal;
+}
+
+.post-meta {
+  margin-bottom: 3rem;
+}
+
+.post-footer .author {
+  margin-right: 200px;
+}
