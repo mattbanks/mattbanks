@@ -12,6 +12,11 @@
   background-blend-mode: normal;
 }
 
+h1.page-title,
+h2.page-description {
+  text-shadow: 0 0px 5px rgba(0, 0, 0, 0.8);
+}
+
 .post-meta {
   margin-bottom: 3rem;
 }
@@ -23,5 +28,9 @@
 @media (max-width: 500px) {
   .post-footer .author {
     margin-right: 0;
+  }
+
+  .main-nav.overlay .menu-button {
+    text-shadow: 0 0px 5px rgba(0, 0, 0, 0.8);
   }
 }
