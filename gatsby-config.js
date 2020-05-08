@@ -1,4 +1,4 @@
-const config = require("./config")
+const config = require('./config');
 
 module.exports = {
   pathPrefix: config.pathPrefix,
@@ -6,7 +6,7 @@ module.exports = {
     title: config.siteTitle,
   },
   plugins: [
-    "gatsby-plugin-react-helmet",
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -19,8 +19,8 @@ module.exports = {
         icon: config.manifestIcon, // This path is relative to the root of the site.
       },
     },
-    "gatsby-plugin-sass",
-    "gatsby-plugin-offline",
-    "gatsby-theme-gallery",
+    'gatsby-plugin-sass',
+    'gatsby-plugin-offline',
+    'gatsby-theme-gallery',
   ],
-}
+};

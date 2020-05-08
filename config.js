@@ -21,15 +21,15 @@ module.exports = {
     },
     {
       style: 'brands',
+      icon: 'fa-twitter',
+      name: 'Twitter',
+      url: 'https://twitter.com/mattbanks',
+    },
+    {
+      style: 'brands',
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/mattbanks',
     },
-    {
-      style: 'brands',
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/mattbanks',
-    }
   ],
 };

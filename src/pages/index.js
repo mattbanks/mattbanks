@@ -4,7 +4,7 @@ import { Gallery } from 'gatsby-theme-gallery';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
-import mattHeadshot from '../assets/images/matt.jpg'
+import mattHeadshot from '../assets/images/matt.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -91,9 +91,7 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>Photos</h2>
-          <p>
-            Some recent pictures that I like. I hope you like them too!
-          </p>
+          <p>Some recent pictures that I like. I hope you like them too!</p>
         </header>
         <Gallery />
         {/* <ul className="features">
