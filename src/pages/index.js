@@ -13,8 +13,8 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
       </div>
-      <Scroll type="id" element="two">
-        <a href="#two" className="more">
+      <Scroll type="id" element="one">
+        <a href="#one" className="more">
           Learn More
         </a>
       </Scroll>
@@ -94,50 +94,6 @@ const IndexPage = () => (
           <p>Some recent pictures that I like. I hope you like them too!</p>
         </header>
         <Gallery />
-        {/* <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-        </ul> */}
       </div>
     </section>
   </Layout>
