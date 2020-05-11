@@ -1,11 +1,12 @@
 import React from 'react';
-import { Gallery } from 'gatsby-theme-gallery';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
+import PhotoGallery from '../components/PhotoGallery';
 
 import mattHeadshot from '../assets/images/matt.jpg';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -95,9 +96,7 @@ const IndexPage = () => (
         </header>
       </div>
 
-      <div className="inner gallery">
-        <Gallery />
-      </div>
+      <PhotoGallery />
     </section>
   </Layout>
 );
