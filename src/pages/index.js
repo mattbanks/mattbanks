@@ -68,8 +68,8 @@ const IndexPage = () => (
               Kernel Creative Media
             </a>{' '}
             with my wife, Vanessa. We offer marketing, photography, web design
-            and development. If you have any cool projects in mind, head over that
-            way and get in touch with us!
+            and development. If you have any cool projects in mind, head over
+            that way and get in touch with us!
           </p>
           <p>
             I also work at{' '}

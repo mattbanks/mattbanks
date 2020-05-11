@@ -8,7 +8,7 @@ import Footer from './Footer';
 
 import config from '../../config';
 
-import shareImg from '../assets/img/share.jpg'
+import shareImg from '../assets/img/share.jpg';
 
 class Layout extends Component {
   constructor(props) {
