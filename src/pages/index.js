@@ -93,6 +93,9 @@ const IndexPage = () => (
           <h2>Photos</h2>
           <p>Some recent pictures that I like. I hope you like them too!</p>
         </header>
+      </div>
+
+      <div style={{ padding: '0 0.5rem' }}>
         <Gallery />
       </div>
     </section>
