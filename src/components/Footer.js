@@ -1,5 +1,7 @@
 import React from 'react';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import config from '../../config';
+
 export default function Footer() {
   return (
     <footer id="footer">
@@ -8,14 +10,14 @@ export default function Footer() {
           const { style, icon, name, url } = social;
           return (
             <li key={url}>
-              <a
+              <OutboundLink
                 href={url}
                 className={`icon ${style} ${icon}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <span className="label">{name}</span>
-              </a>
+              </OutboundLink>
             </li>
           );
         })}
@@ -25,13 +27,13 @@ export default function Footer() {
         <li>All Rights Reserved</li>
         <li>
           Design:{' '}
-          <a
+          <OutboundLink
             href="http://html5up.net"
             target="_blank"
             rel="noopener noreferrer"
           >
             Spectral - HTML5 UP
-          </a>
+          </OutboundLink>
         </li>
       </ul>
     </footer>

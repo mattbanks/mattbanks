@@ -1,5 +1,6 @@
 import React from 'react';
 import { Gallery } from 'gatsby-theme-gallery';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
@@ -60,26 +61,26 @@ const IndexPage = () => (
           <p>You can usually find me with a coffee or a camera in a my hand.</p>
           <p>
             I run{' '}
-            <a
+            <OutboundLink
               href="https://www.kernelcreativemedia.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               Kernel Creative Media
-            </a>{' '}
+            </OutboundLink>{' '}
             with my wife, Vanessa. We offer marketing, photography, web design
             and development. If you have any cool projects in mind, head over
             that way and get in touch with us!
           </p>
           <p>
             I also work at{' '}
-            <a
+            <OutboundLink
               href="https://wolfjawstudios.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               Wolfjaw Studios
-            </a>{' '}
+            </OutboundLink>{' '}
             creating web applications and platforms for some of the best video
             game companies in the world. I previously worked at PUBG and
             MadGlory.
