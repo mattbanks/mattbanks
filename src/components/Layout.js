@@ -38,7 +38,6 @@ class Layout extends Component {
             site {
               siteMetadata {
                 title
-                description
               }
             }
           }
@@ -50,7 +49,7 @@ class Layout extends Component {
               meta={[
                 {
                   name: 'description',
-                  content: data.site.siteMetadata.description,
+                  content: config.description,
                 },
                 { name: 'twitter:card', content: 'summary' },
                 { name: 'twitter:site', content: '@mattbanks' },
@@ -69,7 +68,7 @@ class Layout extends Component {
                 {
                   hid: 'og:description',
                   name: 'og:description',
-                  content: data.site.siteMetadata.description,
+                  content: config.description,
                 },
                 { name: 'og:site_name', content: config.heading },
                 { name: 'og:image', content: config.manifestIcon },
