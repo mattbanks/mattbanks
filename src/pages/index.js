@@ -26,7 +26,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>About Matt</h2>
           <p>
-            Photographer, Software Engineer, Taco Consumer, Music lover, Pour
+            Photographer, Software Engineer, Taco Consumer, Music Lover, Pour
             Over Coffee and Craft Beer Snob.
           </p>
         </header>
@@ -82,7 +82,7 @@ const IndexPage = () => (
             </a>{' '}
             creating web applications and platforms for some of the best video
             game companies in the world. I previously worked at PUBG and
-            MadGlory doing similar types of work.
+            MadGlory.
           </p>
         </div>
       </section>
