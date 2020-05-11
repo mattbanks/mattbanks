@@ -95,7 +95,7 @@ const IndexPage = () => (
         </header>
       </div>
 
-      <div style={{ padding: '0 0.5rem' }}>
+      <div className="inner gallery">
         <Gallery />
       </div>
     </section>
