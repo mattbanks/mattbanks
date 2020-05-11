@@ -1,8 +1,8 @@
 import React from 'react';
+import { Gallery } from 'gatsby-theme-gallery';
 
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
-import PhotoGallery from '../components/PhotoGallery';
 
 import mattHeadshot from '../assets/images/matt.jpg';
 import config from '../../config';
@@ -67,9 +67,9 @@ const IndexPage = () => (
             >
               Kernel Creative Media
             </a>{' '}
-            with my wife, Vanessa. We're offer marketing, photography, web
-            design and development. If have an cool projects in mind, head over
-            that way and get in touch with us!
+            with my wife, Vanessa. We offer marketing, photography, web design
+            and development. If have any cool projects in mind, head over that
+            way and get in touch with us!
           </p>
           <p>
             I also work at{' '}
@@ -96,7 +96,9 @@ const IndexPage = () => (
         </header>
       </div>
 
-      <PhotoGallery />
+      <div className="inner gallery">
+        <Gallery />
+      </div>
     </section>
   </Layout>
 );
