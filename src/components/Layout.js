@@ -70,10 +70,13 @@ class Layout extends Component {
                 {
                   hid: 'og:description',
                   name: 'og:description',
-                  content: config.description,
+                  content: data.site.siteMetadata.title,
                 },
                 { name: 'og:site_name', content: config.heading },
-                { name: 'og:image', content: `https://mattbanks.me${shareImg}` },
+                {
+                  name: 'og:image',
+                  content: `https://mattbanks.me${shareImg}`,
+                },
               ]}
             >
               <html lang="en" />
