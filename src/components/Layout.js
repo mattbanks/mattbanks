@@ -6,6 +6,8 @@ import { StaticQuery, graphql } from 'gatsby';
 import '../assets/sass/main.scss';
 import Footer from './Footer';
 
+import config from '../../config';
+
 class Layout extends Component {
   constructor(props) {
     super(props);
@@ -36,6 +38,7 @@ class Layout extends Component {
             site {
               siteMetadata {
                 title
+                description
               }
             }
           }
@@ -45,8 +48,31 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
-                { name: 'keywords', content: 'site, web' },
+                {
+                  name: 'description',
+                  content: data.site.siteMetadata.description,
+                },
+                { name: 'twitter:card', content: 'summary' },
+                { name: 'twitter:site', content: '@mattbanks' },
+                { name: 'twitter:creator', content: '@mattbanks' },
+                { name: 'og:type', content: 'website' },
+                {
+                  hid: 'og:title',
+                  name: 'og:title',
+                  content: data.site.siteMetadata.title,
+                },
+                {
+                  hid: 'og:url',
+                  name: 'og:url',
+                  content: 'https://mattbanks.me',
+                },
+                {
+                  hid: 'og:description',
+                  name: 'og:description',
+                  content: data.site.siteMetadata.description,
+                },
+                { name: 'og:site_name', content: config.heading },
+                { name: 'og:image', content: config.manifestIcon },
               ]}
             >
               <html lang="en" />

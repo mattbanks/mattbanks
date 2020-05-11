@@ -1,13 +1,14 @@
 module.exports = {
   siteTitle:
     'Matt Banks - Photographer, Software Engineer, Taco Consumer, Music lover, Pour Over Coffee and Craft Beer Snob', // <title>
+  description: 'Photographer, Software Engineer, Taco Consumer, Music lover, Pour Over Coffee and Craft Beer Snob',
   manifestName: 'Matt Banks',
   manifestShortName: 'Matt Banks', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/favicon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Matt Banks',
   subHeading: 'Photographer | Engineer',
