@@ -56,25 +56,22 @@ class Layout extends Component {
                 { name: 'twitter:card', content: 'summary' },
                 { name: 'twitter:site', content: '@mattbanks' },
                 { name: 'twitter:creator', content: '@mattbanks' },
-                { name: 'og:type', content: 'website' },
+                { property: 'og:type', content: 'website' },
                 {
-                  hid: 'og:title',
-                  name: 'og:title',
+                  property: 'og:title',
                   content: data.site.siteMetadata.title,
                 },
                 {
-                  hid: 'og:url',
-                  name: 'og:url',
+                  property: 'og:url',
                   content: 'https://mattbanks.me',
                 },
                 {
-                  hid: 'og:description',
-                  name: 'og:description',
+                  property: 'og:description',
                   content: data.site.siteMetadata.title,
                 },
-                { name: 'og:site_name', content: config.heading },
+                { property: 'og:site_name', content: config.heading },
                 {
-                  name: 'og:image',
+                  property: 'og:image',
                   content: `https://mattbanks.me${shareImg}`,
                 },
               ]}
