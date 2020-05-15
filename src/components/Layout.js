@@ -63,7 +63,7 @@ class Layout extends Component {
                 },
                 {
                   property: 'og:url',
-                  content: 'https://mattbanks.me',
+                  content: 'https://www.mattbanks.me',
                 },
                 {
                   property: 'og:description',
@@ -72,7 +72,7 @@ class Layout extends Component {
                 { property: 'og:site_name', content: config.heading },
                 {
                   property: 'og:image',
-                  content: `https://mattbanks.me${shareImg}`,
+                  content: `https://www.mattbanks.me${shareImg}`,
                 },
               ]}
             >
