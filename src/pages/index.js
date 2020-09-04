@@ -28,7 +28,7 @@ const IndexPage = () => (
           <h2>About Matt</h2>
           <p>
             Photographer, Software Engineer, Taco Consumer, Music Lover, Pour
-            Over Coffee and Craft Beer Snob.
+            Over Coffee and Craft Beer Fan.
           </p>
         </header>
         <ul className="icons major">
