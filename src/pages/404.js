@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
 import { Link } from 'gatsby';
+import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout fullMenu>

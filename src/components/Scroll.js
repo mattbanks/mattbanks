@@ -1,26 +1,20 @@
+/* eslint-disable react/destructuring-assignment */
 import smoothscroll from 'smoothscroll-polyfill';
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Element = (props) => {
-  return props.children;
-};
+const Element = (props) => props.children;
 
 class Scroll extends React.Component {
-  static propTypes = {
-    type: PropTypes.string,
-    element: PropTypes.string,
-    offset: PropTypes.number,
-    timeout: PropTypes.number,
-    children: PropTypes.node.isRequired,
-  };
   constructor() {
     super();
     this.handleClick = this.handleClick.bind(this);
   }
+
   componentDidMount() {
     smoothscroll.polyfill();
   }
+
   handleClick(e) {
     e.preventDefault();
     let elem = 0;
@@ -29,20 +23,24 @@ class Scroll extends React.Component {
     if (type && element) {
       switch (type) {
         case 'class':
+          // eslint-disable-next-line prefer-destructuring
           elem = document.getElementsByClassName(element)[0];
-          scroll = elem ? true : false;
+          scroll = !!elem;
           break;
         case 'id':
           elem = document.getElementById(element);
-          scroll = elem ? true : false;
+          scroll = !!elem;
           break;
         default:
       }
     }
+    // eslint-disable-next-line no-unused-expressions
     scroll
       ? this.scrollTo(elem, offset, timeout)
-      : console.log(`Element not found: ${element}`); // eslint-disable-line
+      : console.log(`Element not found: ${element}`);
   }
+
+  // eslint-disable-next-line class-methods-use-this
   scrollTo(element, offSet = 0, timeout = null) {
     const elemPos = element
       ? element.getBoundingClientRect().top + window.pageYOffset
@@ -55,6 +53,7 @@ class Scroll extends React.Component {
       window.scroll({ top: elemPos + offSet, left: 0, behavior: 'smooth' });
     }
   }
+
   render() {
     return (
       <Element>
@@ -68,5 +67,13 @@ class Scroll extends React.Component {
     );
   }
 }
+
+Scroll.propTypes = {
+  type: PropTypes.string,
+  element: PropTypes.string,
+  offset: PropTypes.number,
+  timeout: PropTypes.number,
+  children: PropTypes.node.isRequired,
+};
 
 export default Scroll;
