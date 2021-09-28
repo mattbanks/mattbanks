@@ -27,7 +27,7 @@ const IndexPage = () => (
         <header className="major">
           <h2>About Matt</h2>
           <p>
-            Photographer, Software Engineer, Taco Consumer, Music Lover, Pour
+            Photographer, Engineering Leader, Taco Consumer, Music Lover, Pour
             Over Coffee and Craft Beer Fan.
           </p>
         </header>
