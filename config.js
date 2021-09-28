@@ -2,7 +2,7 @@ module.exports = {
   siteTitle:
     'Matt Banks - Photographer, Engineering Leader, Taco Consumer, Music lover, Pour Over Coffee and Craft Beer Fan', // <title>
   description:
-    'Photographer, Software Engineer, Taco Consumer, Music lover, Pour Over Coffee and Craft Beer Fan',
+    'Photographer, Engineering Leader, Taco Consumer, Music lover, Pour Over Coffee and Craft Beer Fan',
   manifestName: 'Matt Banks',
   manifestShortName: 'Matt Banks', // max 12 characters
   manifestStartUrl: '/',
