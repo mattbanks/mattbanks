@@ -5,7 +5,7 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Layout from '../components/Layout';
 import Scroll from '../components/Scroll';
 
-import mattHeadshot from '../assets/images/matt.jpg';
+import mattHeadshot from '../assets/images/matt-headshot.jpg';
 import config from '../../config';
 
 const IndexPage = () => (
@@ -60,17 +60,17 @@ const IndexPage = () => (
           <h2>What I Do</h2>
           <p>You can usually find me with a coffee or a camera in a my hand.</p>
           <p>
-            I run{' '}
+            I'm the founder of{' '}
             <OutboundLink
               href="https://www.kernelcreativemedia.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               Kernel Creative Media
-            </OutboundLink>{' '}
-            with my wife, Vanessa. We offer marketing, photography, web design
-            and development. If you have any cool projects in mind, head over
-            that way and get in touch with us!
+            </OutboundLink>
+            , which I run with my wife, Vanessa. We offer marketing,
+            photography, web design and development. If you have any projects in
+            mind, head over that way and get in touch with us!
           </p>
           <p>
             I also work at{' '}
@@ -81,9 +81,9 @@ const IndexPage = () => (
             >
               Wolfjaw Studios
             </OutboundLink>{' '}
-            creating web applications and platforms for some of the best video
-            game companies in the world. I previously worked at PUBG and
-            MadGlory.
+            leading teams to create web applications and platforms for some of
+            the biggest and most successful video game companies in the world. I
+            previously worked in a similar role at PUBG and MadGlory.
           </p>
         </div>
       </section>
@@ -93,7 +93,17 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>Photos</h2>
-          <p>Some recent pictures that I like. I hope you like them too!</p>
+          <p>
+            A sampling of some recent work. If you like what you see,{' '}
+            <OutboundLink
+              href="https://www.kernelcreativemedia.com/#contact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              please get in touch
+            </OutboundLink>
+            !
+          </p>
         </header>
       </div>
 
