@@ -1750,7 +1750,7 @@ button,
     display: inline-block;
     font-size: 1.75em;
     opacity: 1;
-    padding: 0.35em 1em;
+    padding: 0.35em 2em;
     position: relative;
     z-index: 1;
 
@@ -1940,7 +1940,7 @@ body.is-preload,
       'background-image',
       (
         'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-        'url("../images/banner.jpg")'
+        'url("../images/banner-fall2021.jpg")'
       )
     );
     background-attachment: fixed;
@@ -2072,7 +2072,7 @@ body.landing,
       'background-image',
       (
         'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-        'url("../images/banner.jpg")'
+        'url("../images/banner-fall2021.jpg")'
       )
     );
     background-attachment: fixed;
@@ -2099,7 +2099,7 @@ body.is-mobile {
         'background-image',
         (
           'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-          'url("../images/banner.jpg")'
+          'url("../images/banner-fall2021.jpg")'
         )
       );
       background-position: center center;
