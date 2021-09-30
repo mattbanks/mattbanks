@@ -12,7 +12,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/favicon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Matt Banks',
-  subHeading: 'Photographer | Engineer',
+  subHeading: 'Photographer | Engineering Leader',
   // social
   socialLinks: [
     {
