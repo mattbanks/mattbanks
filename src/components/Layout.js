@@ -90,6 +90,14 @@ class Layout extends Component {
                 {children}
                 <Footer />
               </div>
+
+              <a
+                rel="me"
+                href="https://mastodon.social/@mattbanks"
+                style={{ display: 'none' }}
+              >
+                Mastodon
+              </a>
             </div>
           </>
         )}
