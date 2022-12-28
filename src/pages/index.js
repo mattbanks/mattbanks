@@ -89,7 +89,7 @@ const IndexPage = ({ data }) => {
               >
                 Wolfjaw Studios
               </OutboundLink>{' '}
-              leading teams to create web applications and game platforms for
+              leading teams to create game services and web applications for
               some of the biggest and most successful video game companies in
               the world. I previously worked in a similar role at PUBG and
               MadGlory.
