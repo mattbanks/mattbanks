@@ -25,16 +25,6 @@ export default function Footer() {
       <ul className="copyright">
         <li>&copy; Matt Banks</li>
         <li>All Rights Reserved</li>
-        <li>
-          Design:{' '}
-          <OutboundLink
-            href="http://html5up.net"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Spectral - HTML5 UP
-          </OutboundLink>
-        </li>
       </ul>
     </footer>
   );
