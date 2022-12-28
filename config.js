@@ -1,8 +1,8 @@
 module.exports = {
   siteTitle:
-    'Matt Banks - Photographer, Engineering Leader, Taco Consumer, Music lover, Pour Over Coffee and Craft Beer Fan', // <title>
+    'Matt Banks - Engineering Leader, Photographer, Taco Consumer, Music Lover, Pour Over Coffee Fan', // <title>
   description:
-    'Photographer, Engineering Leader, Taco Consumer, Music lover, Pour Over Coffee and Craft Beer Fan',
+    'Engineering Leader, Photographer, Taco Consumer, Music Lover, Pour Over Coffee Fan',
   manifestName: 'Matt Banks',
   manifestShortName: 'Matt Banks', // max 12 characters
   manifestStartUrl: '/',
@@ -12,7 +12,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/favicon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Matt Banks',
-  subHeading: 'Photographer | Engineering Leader',
+  subHeading: 'Engineering Leader | Photographer',
   // social
   socialLinks: [
     {
