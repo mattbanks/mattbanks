@@ -130,7 +130,7 @@ const IndexPage = ({ data }) => {
         </div>
 
         <div className="inner gallery">
-          <Gallery images={images} rowMargin="0" colWidth="100%" />
+          <Gallery images={images} rowMargin="0" colWidth="100" />
         </div>
       </section>
     </Layout>
