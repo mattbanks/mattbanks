@@ -81,31 +81,26 @@ const IndexPage = ({ data }) => {
               You can usually find me with a coffee or a camera in a my hand.
             </p>
             <p>
-              I work at{' '}
+              I'm the VP of Engineering at{' '}
               <OutboundLink
-                href="https://wolfjawstudios.com"
+                href="https://humach.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Wolfjaw Studios
-              </OutboundLink>{' '}
-              leading teams to create game services and web applications for
-              some of the biggest and most successful video game companies in
-              the world. I previously worked in a similar role at PUBG and
-              MadGlory.
+                Humach
+              </OutboundLink>, where I’m building and leading a new AI
+              Engineering team. We're focused on shipping real products,
+              moving fast, and figuring out the right systems and
+              structure as we grow.
             </p>
             <p>
-              I'm also the founder of{' '}
-              <OutboundLink
-                href="https://www.kernelcreativemedia.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Kernel Creative Media
-              </OutboundLink>
-              , which I run with my wife, Vanessa. We offer marketing,
-              photography, web design and development. If you have any projects
-              in mind, head over that way and get in touch with us!
+              Before this, I spent time as a fractional CTO helping a
+              couple of fintech startups get their products off the
+              ground and scale their engineering teams. And before that,
+              I spent over a decade in the gaming industry, leading
+              teams and building tech behind some pretty amazing games
+              like Destiny 2, PUBG, League of Legends, Among Us,
+              NBA 2K, and others.
             </p>
           </div>
         </section>
